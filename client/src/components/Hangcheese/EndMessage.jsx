@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import Confetti from "react-confetti-boom";
 import GameOver from "./GameOver";
 import "./endmessage.css";
@@ -30,11 +31,11 @@ function EndMessage({ endMessage, solution }) {
       )}
 
       <div className="motif-solution">La solution était {solution}</div>
-      <a href="/hangcheese">
+      <NavLink to="/hangcheese" reloadDocument>
         <button className="motif-button" type="button">
           RESET
         </button>
-      </a>
+      </NavLink>
     </div>
   );
 }
