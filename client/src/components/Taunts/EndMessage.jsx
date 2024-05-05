@@ -30,7 +30,7 @@ function EndMessage({ endMessage, insult }) {
       <div className="endanswer">{insult.slang.toUpperCase()}</div>
       <div>{insult.def_fr}</div>
       <div>{insult.def_en} </div>
-      <a href={`${import.meta.env.VITE_API_URL}/taunts`}>
+      <a href="/taunts">
         <button className="tauntsbutton" type="button">
           RESET!
         </button>
