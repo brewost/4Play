@@ -31,7 +31,7 @@ function EndMessage({ endMessage, solution }) {
       )}
 
       <div className="motif-solution">La solution était {solution}</div>
-      <Link to="/motif" reloadDocument>
+      <Link to="/motif.html" reloadDocument>
         <button className="motif-button" type="button">
           RESET
         </button>
