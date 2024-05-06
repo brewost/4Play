@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Confetti from "react-confetti-boom";
 import GameOver from "./GameOver";
 
@@ -31,11 +31,11 @@ function EndMessage({ endMessage, insult }) {
       <div className="endanswer">{insult.slang.toUpperCase()}</div>
       <div>{insult.def_fr}</div>
       <div>{insult.def_en} </div>
-      <NavLink to="/taunts.html" reloadDocument>
+      <Link to="/taunts" reloadDocument>
         <div className="tauntsbutton" type="button">
           RESET!
         </div>
-      </NavLink>
+      </Link>
     </div>
   );
 }
