@@ -31,7 +31,7 @@ function EndMessage({ endMessage, insult }) {
       <div className="endanswer">{insult.slang.toUpperCase()}</div>
       <div>{insult.def_fr}</div>
       <div>{insult.def_en} </div>
-      <Link to="/taunts" reloadDocument>
+      <Link to="/taunts.html" reloadDocument>
         <div className="tauntsbutton" type="button">
           RESET!
         </div>
