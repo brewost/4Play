@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "description": "",
-  "homepage": "https://github.com/{{ org }}/4play#readme",
+  "homepage": "https://4-play-client.vercel.app/",
   "bugs": {
     "url": "https://github.com/{{ org }}/4play/issues"
   },
